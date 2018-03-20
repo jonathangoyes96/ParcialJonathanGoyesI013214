@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@color/colorGray"
+    android:padding="10dp"
     tools:context="com.optic.parcialjonathangoyesi013214.MainActivity">
 
     <LinearLayout
@@ -13,6 +15,10 @@
         android:orientation="vertical">
 
         <include layout="@layout/cardview_ratings" />
+
+        <include layout="@layout/cardview_data" />
+
+        <include layout="@layout/cardview_comments" />
 
     </LinearLayout>
 

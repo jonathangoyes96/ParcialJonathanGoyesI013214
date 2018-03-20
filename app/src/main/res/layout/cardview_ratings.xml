@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardBackgroundColor="@color/colorGray"
+
     >
 
     <LinearLayout
@@ -16,8 +18,8 @@
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             app:cardCornerRadius="6dp"
-            android:layout_weight="0.25"
-            android:layout_marginLeft="15dp"
+            android:layout_weight="0.3"
+
             >
 
             <LinearLayout
@@ -38,7 +40,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/star"/>
+                        android:src="@drawable/star"
+                        android:layout_marginRight="2dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -67,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             app:cardCornerRadius="6dp"
-            android:layout_weight="0.25"
+            android:layout_weight="0.28"
             android:layout_marginLeft="15dp"
             >
 
@@ -89,7 +92,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/eye"/>
+                        android:src="@drawable/eye"
+                        android:layout_marginRight="5dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -120,7 +124,7 @@
             android:layout_width="wrap_content"
             android:layout_height="80dp"
             app:cardCornerRadius="6dp"
-            android:layout_weight="0.25"
+            android:layout_weight="0.39"
             android:layout_marginLeft="15dp"
             >
 
@@ -142,7 +146,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/projector"/>
+                        android:src="@drawable/projector"
+                        android:layout_marginRight="5dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
